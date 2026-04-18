@@ -1,94 +1,87 @@
-# Interactive Data Analysis Dashboard using Streamlit
+# 📊 CSV Data Visualization Dashboard
 
-An interactive and customizable data analysis dashboard built with **Streamlit**, allowing users to upload datasets or generate random data and explore them with various visualizations and statistical summaries.
-
-## Features
-
-- Upload CSV datasets or generate random datasets for analysis.
-- Dynamic data overview including preview and statistical summary.
-- Interactive visualizations:
-  - Correlation heatmap
-  - Line charts
-  - Histograms
-- User-friendly sidebar for dataset selection, visualization control, and customization.
-
-## Technologies Used
-
-- Python 3
-- Streamlit
-- Pandas
-- NumPy
-- Matplotlib
-
-## How to Use
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-
-2. Install dependencies:
-  ```
-pip install -r requirements.txt 
-```
-3. Run the Streamlit app:
-```
-streamlit run app.py
-```
-4. Choose dataset from the sidebar:
-   
-Upload your own CSV file.
-
-OR generate random data with custom rows and columns.
-
-
-
-5. Explore:
-
-View dataset head and summary.
-
-Generate visualizations like correlation heatmap, line chart, and histogram.
-
-
-
-
-File Structure
-```
-├── app.py             # Main Streamlit application
-├── README.md          # Project documentation
-└── requirements.txt   # Python dependencies
-```
-Requirements
-
-Python 3.x
-
-Streamlit
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-
-(Install using pip install streamlit pandas numpy matplotlib)
-
-Future Improvements
-
-Add more visualization types (scatter plots, box plots).
-
-Integrate data cleaning options.
-
-Download option for filtered/modified datasets.
-
-Machine Learning model integration for quick predictions.
-
-
-Contact
-
-For suggestions and improvements, feel free to reach out at [sourabhsw2005@gmail.com] or open an issue.
-
+An interactive data exploration dashboard built with Streamlit — upload any CSV file or generate a random dataset and instantly explore statistics, charts, and insights.
 
 ---
 
-Developed with ❤ using Streamlit.
+## 🚀 Features
+
+- 📁 Upload any CSV file or generate random data with custom size
+- 📌 Quick stats — rows, columns, missing values at a glance
+- 📈 Statistical summary (mean, std, min, max, percentiles)
+- ⚠️ Missing value detection with one-click auto-fill
+- 📊 4 chart types:
+  - Line Chart (multi-column)
+  - Histogram (adjustable bins)
+  - Correlation Heatmap (with value labels)
+  - Box Plot (distribution overview)
+- 🎨 Customizable chart color
+- ⬇️ Download processed data as CSV
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Python | Core language |
+| Streamlit | Web UI & interactivity |
+| Pandas | Data loading & processing |
+| NumPy | Numerical operations |
+| Matplotlib | Chart rendering |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Sourabhsaw1/Interactive-Data-Analysis-Dashboard-using-Streamlit.git
+cd Interactive-Data-Analysis-Dashboard-using-Streamlit
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🖥️ How to Use
+
+1. Run the app with `streamlit run app.py`
+2. Choose **Upload CSV** or **Generate Random Data** from the sidebar
+3. Explore the **Quick Overview**, **Summary**, and **Visualizations**
+4. Customize chart color and settings from the sidebar
+5. Download the processed dataset if needed
+
+---
+
+## 📸 Screenshots
+
+> *(Add screenshots of the running app here)*
+
+---
+
+## 📁 Project Structure
+
+```
+Interactive-Data-Analysis-Dashboard/
+├── app.py              # Main Streamlit app
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
+```
+
+---
+
+## 🌐 Live Demo
+
+> *(Add your Streamlit Cloud deployment link here after deploying)*
+
+---
+
+## 👤 Author
+
+**Sourabh Saw**
+- GitHub: [@Sourabhsaw1](https://github.com/Sourabhsaw1)
+- Email: sourabhsaw2005@gmail.com
+
+---
+
+> Built with Python, Pandas & Streamlit 🐍
