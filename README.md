@@ -1,5 +1,7 @@
 # 📊 CSV Data Visualization Dashboard
 
+🌐 Live Demo: https://sourabh-dashboard.streamlit.app
+
 An interactive data exploration dashboard built with Streamlit — upload any CSV file or generate a random dataset and instantly explore statistics, charts, and insights.
 
 ---
